@@ -20,6 +20,6 @@ public class CalcTest {
 
     @Test
     public void deduct() throws Exception {
-        assertEquals(7, mCalc.deduct(10, 3));
+        assertEquals(9, mCalc.deduct(10, 3));
     }
 }
